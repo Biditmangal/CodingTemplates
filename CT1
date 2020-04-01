@@ -1,0 +1,83 @@
+#pragma GCC optimize ("O3")
+#define _CRT_SECURE_NO_WARNINGS
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define null NULL
+#define f(i,start,end) for(int i=(int)start;i<(int)end;i++)
+#define rf(i,start,end) for(int i=(int)start-1;i>=(int)end;i--)
+#define all(v) v.begin(),v.end()
+#define rall(v) v.rbegin(),v.rend()
+#define F first
+#define S second
+#define pb push_back
+#define del erase
+#define pf printf
+#define sc scanf
+#define test int t;cin>>t;while(t--)
+#define see(x) getline(cin,x)
+#define read(s) freopen(s,"r",stdin)
+#define out(s) freopen(s,"w",stdout)
+#define MP make_pair
+#define skip continue
+#define stop break
+#define ios ios_base::sync_with_stdio(0);cin.tie(0)
+#define toUpper(x) std::transform(x.begin(), x.end(), x.begin(), std::toupper);
+#define toLower(x) std::transform(x.begin(), x.end(), x.begin(), std::tolower);
+#define DB(x) cout<<#x<<" is : "<<x<<endl;
+#define ln "\n"
+#define sz(v) (v).size()
+#define mod 1000000007
+#define num(x) x-'0'
+#define pres(n) cout<<fixed<<setprecision(n)
+#define mem(p,v) memset(p,v, sizeof(p));
+template<class T> T gcd(T a, T b){ if (b == 0)return a; return gcd(b, a % b); }
+template<class T> T lcm(T a, T b){ return (b / gcd(a, b))*a; }
+void print(){}  void pLine(){ cout << endl; }
+template<typename T, typename ... arg>
+void print(T x, arg ... ar){ cout << x; print(ar...); }
+
+const double PI = acos(-1);
+const double eps = 1e-9;
+
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<string> vs;
+typedef vector<ll> vll;
+typedef vector<char> vc;
+typedef vector<bool> vb;
+typedef unsigned long long ull;
+typedef long double ldb;
+typedef map<string, string> dic;
+typedef pair<int, int> ii;
+typedef vector<ii> vii;
+typedef vector<vi> vvi;
+typedef stringstream ss;
+
+#define _s "%s"
+#define _d "%d"
+#define _ll "%lld"
+#define _c "%c"
+#define _f "%f"
+#define _lf "%lf"
+
+
+
+void sol(){
+
+    //Code here
+
+}
+
+int main(){
+#ifndef ONLINE_JUDGE
+    read("Text.txt");
+    out("output.txt");
+#endif
+    ios;
+
+    sol();
+
+    return 0;
+}
