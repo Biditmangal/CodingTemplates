@@ -32,14 +32,14 @@ using namespace std;
 #define pii pair<int,int>
 #define MOD 1000000007
 
-int a[100000];
+//int a[100000];
 
 int main(){
 
-	int t, n, m;
-	scanf("%d", &t);
+	int t, n;
+	cin>>t;
 	REP(tc, t){
-		scanf("%d", &n);
+		cin>>n;
 	}
 	return 0;
 }
